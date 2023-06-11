@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libcrails-yaml-parser/
+}
+
+export $out_root/libcrails-yaml-parser/$import.target

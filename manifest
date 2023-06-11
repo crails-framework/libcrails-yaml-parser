@@ -1,0 +1,13 @@
+: 1
+name: libcrails-yaml-parser
+version: 2.0.0
+summary: crails-yaml-parser C++ library
+license: other: proprietary ; Not free/open source.
+license: BSD-3-Clause
+description-file: README.md
+url: https://github.com/crails-framework/libcrails-yaml-parser.git
+email: michael@unetresgrossebite.com
+depends: * build2 >= 0.15.0
+depends: * bpkg >= 0.15.0
+depends: libcrails ^2.0.0
+depends: yaml-cpp ^0.7.0
